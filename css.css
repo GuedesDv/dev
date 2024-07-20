@@ -44,7 +44,7 @@ section {
 
 
 section img{
-opacity: 10%;
+opacity: 45%;
 position: relative;
 flex-direction: row;
 justify-content: space-between;
@@ -163,7 +163,7 @@ header img {
 
 .nav-item::before {
     content: "";
-    background-color: rgba(243, 242, 191, 0.904);
+    background-color: rgb(207, 161, 9);
     display: block;
     position:absolute;
     inset:0;
@@ -358,7 +358,7 @@ canvas {
     align-items: center;
     font-size: 1.8em;
     z-index: 5;
-    color: rgb(7, 7, 7);
+    color: rgb(255, 255, 255);
 
 }
 
@@ -376,6 +376,7 @@ canvas {
     flex-direction: column;
     align-items: center;
     z-index: 6;
+    color:#fff;
 }
 
 .game-over {
@@ -397,7 +398,7 @@ canvas {
     padding: 10px 15px 10px 12px;
     font-size: 1rem;
     font-weight: 600;
-    color: #ffffff;
+    color: #ff0000;
     margin-top: 40px;
     display: flex;
     align-items: center;
