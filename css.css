@@ -420,7 +420,7 @@ canvas {
     z-index: 6;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 700px) {
     header {
         flex-direction: column;
         align-items: center;
@@ -435,7 +435,7 @@ canvas {
 
     .hero {
         width: 100%;
-        height: auto;
+        height: 100dvh;
         margin-bottom: 20px;
         padding: 10px;
     }
@@ -457,7 +457,7 @@ canvas {
 
     .hero-two {
         width: 100%;
-        height: auto;
+        height: 100dvh;
         margin-bottom: 10px;
     }
 
@@ -474,9 +474,11 @@ canvas {
     section {
         flex-direction: column;
         top: 50px;
+        display: none;
     }
 
     section img {
+        display: none;
         width: 100%;
         height: auto;
         padding: 10px;
@@ -521,14 +523,4 @@ canvas {
     .title {
         font-size: 0.8rem;
     }
-
-    section{
-        display:none;
-    }
-
-    section img{
-        display: none;
-    }
-    }
-}
 }
