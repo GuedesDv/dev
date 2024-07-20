@@ -41,19 +41,19 @@ let isPlaying = false;
 const musicone = {
  songnamex : 'The Model',
  artistx : 'kraftwerk',
- filex: 'music_ (1)'
+ filex: 'music_(1)'
 };
 
 const musictwo = {
     songnamex : 'Feel Good Inc',
     artistx : 'Gorillaz',
-    filex: 'music_ (2)'
+    filex: 'music_(2)'
 };
 
     const musicthree = {
         songnamex : 'Silence & Secrets',
         artistx : 'WhoMadeWho',
-        filex: 'music_ (4)'
+        filex: 'music_(4)'
    };
 
    const playlist = [musicone, musictwo, musicthree];
