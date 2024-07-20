@@ -92,8 +92,8 @@ function updatetimett(){
 
 
 function iniciarsong(){
-    capadisc.src = `album/${playlist[index].filex}.jpg`;
-    song.src = `album/${playlist[index].filex}.mp3`;
+    capadisc.src = `${playlist[index].filex}.jpg`;
+    song.src = `${playlist[index].filex}.mp3`;
     songname.innerText = playlist[index].songnamex;
     artist.innerText = playlist[index].artistx;
 
@@ -169,7 +169,7 @@ const finalscore = document.querySelector(".final-score > span");
 const menu = document.querySelector(".menu-screen");
 const buttonplay = document.querySelector(".btn-play");
 
-const audio = new Audio('/asset/audio.mp3');
+const audio = new Audio('audio.mp3');
 
 const size = 30
 
