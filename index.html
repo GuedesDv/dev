@@ -111,27 +111,39 @@
 </div>
 </div>
 <audio src="/audio.mp3"> </audio>
-<div id="modal">
+<div id="modal"> 
     <div class="box">
         <div class="head">
             <div class="title">
-                <h1> GUEDS DEV</h1>
         </div>
-        <div class="title"><h1> PLAY SNAKE </h1></div>
-        
-        
-            <div class="score"> score: <span class=scorevalue>00</span></div>
         
             <div class="menu-screen">
-                <span class="game-over"> game over</span>
-                <span class="final-score">score: <span> </span> </span>
+                <span class="game-over"></span> game over</span>
+                <span class="final-score" style="color: #1E8DB8;">score: <span> </span> </span>
                 <button class="btn-play"><span class="material-symbols-outlined">
                     play_circle
-                    </span> Jogar Novamente </button>
+                    </span> Jogar novamente </button>
             </div>
-        
-            <canvas id="myCanvas" width="500" height="500" style="border:1px solid #000000;">
-            </canvas>
+        <table>
+            <th>            
+                     <tr>
+                <img src="guedesdevtopo.png">
+                    </tr>
+                     <tr>
+                <img src="playgame.png">
+                    </tr>
+                    <tr>
+                        <img src="score.png"><br>
+                    </tr>
+                    <tr>
+                    <div class="score" style="font-size: 50px; color: black; bottom: 20%;"><span class=scorevalue style="background-color: #1E8DB8; border-radius: 50%;">00</span></div>
+                </tr>
+                        <tr>
+                    <canvas id="myCanvas" width="500" height="500" style="border:1px solid #fdbb05;">
+                    </canvas>
+                         </tr>
+            </th>
+        </table>
 
         
         </div>
