@@ -173,7 +173,7 @@ const audio = new Audio('audio.mp3');
 
 const size = 30
 
-const ipos = {x: 300, y: 300}
+const ipos = {x: 50, y: 100}
 let snake = [ipos]
 
 const incrementscore = () => {
