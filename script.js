@@ -40,7 +40,7 @@ let isPlaying = false;
 
 const musicone = {
     
-        songnamex : "Vivaldi Four Seasons: Winter (L'Inverno)",
+        songnamex : 'Vivaldi Four Seasons: Winter',
         artistx : 'Freivogel & Voices of Music',
         filex: 'music_(7)'
  
@@ -64,7 +64,7 @@ songnamex : 'The Model',
         
    };
 
-   const playlist = [musicone, musictwo, musicthree, musicfour];
+   const playlist = [, musictwo, musicthree, musicfour];
    let index = 0;
 
 
