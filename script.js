@@ -39,9 +39,11 @@ function parallax(e) {
 let isPlaying = false;
 
 const musicone = {
- songnamex : 'The Model',
- artistx : 'kraftwerk',
- filex: 'music_(1)'
+    
+        songnamex : "Vivaldi Four Seasons: Winter (L'Inverno)",
+        artistx : 'Freivogel & Voices of Music',
+        filex: 'music7'
+ 
 };
 
 const musictwo = {
@@ -54,9 +56,15 @@ const musictwo = {
         songnamex : 'Silence & Secrets',
         artistx : 'WhoMadeWho',
         filex: 'music_(4)'
+
+         const musicfour = {
+        songnamex : 'The Model',
+ artistx : 'kraftwerk',
+ filex: 'music_(1)'
+        
    };
 
-   const playlist = [musicone, musictwo, musicthree];
+   const playlist = [musicone, musictwo, musicthree, musicfour];
    let index = 0;
 
 
