@@ -56,7 +56,7 @@ const musicthree = {
         songnamex : 'Silence & Secrets',
         artistx : 'WhoMadeWho',
         filex: 'music_(4)'
-
+};
  const musicfour = {
 songnamex : 'The Model',
  artistx : 'kraftwerk',
