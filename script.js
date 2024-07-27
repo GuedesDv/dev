@@ -42,7 +42,7 @@ const musicone = {
     
         songnamex : "Vivaldi Four Seasons: Winter (L'Inverno)",
         artistx : 'Freivogel & Voices of Music',
-        filex: 'music7'
+        filex: 'music_(7)'
  
 };
 
@@ -52,13 +52,13 @@ const musictwo = {
     filex: 'music_(2)'
 };
 
-    const musicthree = {
+const musicthree = {
         songnamex : 'Silence & Secrets',
         artistx : 'WhoMadeWho',
         filex: 'music_(4)'
 
-         const musicfour = {
-        songnamex : 'The Model',
+ const musicfour = {
+songnamex : 'The Model',
  artistx : 'kraftwerk',
  filex: 'music_(1)'
         
