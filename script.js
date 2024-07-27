@@ -39,28 +39,26 @@ function parallax(e) {
 let isPlaying = false;
 
 const musicone = {
-    
-        songnamex : 'Vivaldi Four Seasons: Winter',
-        artistx : 'Freivogel & Voices of Music',
-        filex: 'music_(7)'
- 
+songnamex : 'Vivaldi Four Seasons: Winter',
+artistx : 'Freivogel & Voices of Music',
+filex: 'music_(7)',
 };
 
 const musictwo = {
     songnamex : 'Feel Good Inc',
     artistx : 'Gorillaz',
-    filex: 'music_(2)'
+    filex: 'music_(2)',
 };
 
 const musicthree = {
         songnamex : 'Silence & Secrets',
         artistx : 'WhoMadeWho',
-        filex: 'music_(4)'
+        filex: 'music_(4)',
 };
  const musicfour = {
 songnamex : 'The Model',
  artistx : 'kraftwerk',
- filex: 'music_(1)'
+ filex: 'music_(1)',
         
    };
 
