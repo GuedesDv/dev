@@ -62,7 +62,7 @@ songnamex : 'The Model',
         
    };
 
-   const playlist = [, musictwo, musicthree, musicfour];
+   const playlist = [musicone, musictwo, musicthree, musicfour];
    let index = 0;
 
 
