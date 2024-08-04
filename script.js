@@ -39,9 +39,9 @@ function parallax(e) {
 let isPlaying = false;
 
 const musicone = {
-songnamex : 'Vivaldi Four Seasons: Winter',
-artistx : 'Freivogel & Voices of Music',
-filex: 'music_(7)',
+songnamex : 'Tudo vai mudar',
+artistx : 'Encontro Distante',
+filex: 'music_(8)',
 };
 
 const musictwo = {
