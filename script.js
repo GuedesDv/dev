@@ -10,18 +10,18 @@ const pcout = document.getElementById('barc');
 const timei = document.getElementById('timei');
 const timef = document.getElementById('timef');
 
-
 const $modal = document.getElementById('modal');
+const $overlay = document.getElementById('overlay');
 
-function openModal (){
+function openModal() {
     $modal.style.display = "flex";
+    $overlay.style.display = "block";
 }
-function closeModal (){
+
+function closeModal() {
     $modal.style.display = "none";
+    $overlay.style.display = "none";
 }
-
-
-
 
 document.addEventListener("mousemove", parallax);
 
@@ -37,14 +37,25 @@ function parallax(e) {
 }
 
 let isPlaying = false;
-
 const musicone = {
+    songnamex : 'Fuga da Cidadela',
+    artistx : 'Paulinho Do Futuro',
+    filex: '11',
+    };
+    
+    const musictwo = {
+        songnamex : 'Relato da Insônia',
+        artistx : 'Encontro Distante',
+        filex: '22',
+        };
+
+const musicfive = {
 songnamex : 'Tudo vai mudar',
 artistx : 'Encontro Distante',
 filex: 'music_(8)',
 };
 
-const musictwo = {
+const musicsix = {
     songnamex : 'Feel Good Inc',
     artistx : 'Gorillaz',
     filex: 'music_(2)',
@@ -62,7 +73,7 @@ songnamex : 'The Model',
         
    };
 
-   const playlist = [musicone, musictwo, musicthree, musicfour];
+   const playlist = [musicone, musictwo, musicthree, musicfour,musicfive,musicsix];
    let index = 0;
 
 
@@ -353,6 +364,10 @@ document.addEventListener("keydown", ({key}) => {
  }
  })
 
+
+
+
+ 
  buttonplay.addEventListener("click", () => {
     score.innerText = "00"
     menu.style.display = "none"
